@@ -1,0 +1,220 @@
+@media(min-width: 992px) and (max-width: 1199px){
+
+    #header .btn-default{
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+    .header-nav ul li a{
+        font-size: 16px;
+    }
+    .top-title{
+        font-size: 30px;
+    }
+    .team-block{
+        overflow: hidden;
+    }
+    .questions-accordion .btn-link{
+        white-space: normal;
+        text-align: left;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .questions-accordion .btn-link{
+        white-space: normal;
+        text-align: left;
+    }
+    #header .btn-default{
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+    .header-nav ul li a{
+        font-size: 14px;
+    }
+    .top-title{
+        font-size: 20px;
+    }
+    .top-subtitle{
+        font-size: 16px;
+    }
+    .team-block{
+        overflow: hidden;
+    }
+    .team-block img{
+        display: none;
+    }
+    .team-abs{
+        position: relative;
+        background: #fff;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top:100%;
+        width: 100%;
+        left: 0;
+        background: #f7f7f7;
+        border:1px solid #ff3366;
+        border-radius: 8px;
+    }
+    .header-nav .navbar{
+        padding: 10px !important;
+        border:1px solid #ff3366;
+        border-radius: 8px;
+    }
+    .navbar-light .navbar-toggler{
+        border-color:#ff3366;
+    }
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    .copyright{
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .footer-nav ul li a{
+        font-size: 13px;
+    }
+    .popup{
+        min-width: auto !important;
+        max-width: auto !important;
+    }
+    .sb-content,p, .baf-content, .label-form, ol li, ul li{
+        font-size: 14px;
+    }
+    .header-nav ul li{
+        margin: 5px 0;
+    }
+    .pay-container:before, .pay-container:after{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+    .questions-accordion .btn-link{
+        white-space: normal;
+        text-align: left;
+    }
+    .questions-accordion .btn-link, .questions-accordion .card-body{
+        font-size: 14px;
+    }
+    .service-block{
+        padding-left: 0;
+    }
+    .service-block:before, .service-block:after{
+        display: none;
+    }
+    .service-title a{
+        font-size: 20px;
+    }
+    .service-title{
+        margin-bottom: 20px !important;
+    }
+    .service-content{
+        font-size: 14px;
+    }
+    #header .btn-default{
+        vertical-align: top;
+    }
+    .header-nav{
+        text-align: center;
+    }
+    .navbar{
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .header-nav ul li{
+        margin: 5px 0;
+    }
+    .top-subtitle{
+        display: none;
+    }
+    .top-title{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .main-top-text{
+        position: relative;
+        text-align: center;
+    }
+    .main-top-block{
+        background: #000;
+        padding: 10px 0;
+    }
+    .btn-default{
+        font-size: 14px;
+        padding: 10px 40px;
+    }
+    .main-top-block input{
+        margin-bottom: 20px;
+    }
+    .main-top-block img{
+        display: none;
+    }
+    .main-top-text{
+        top:0;
+        transform: translateY(0%);
+    }
+    .top-form .btn-default input{
+        margin-bottom: 0 !important;
+    }
+    .page-title,h1,.h1{
+        font-size: 20px;
+    }
+    .sb-block{
+        padding-left: 0;
+    }
+    .sb-block:before{
+        display: none !important;
+    }
+    .sb-title{
+        font-size: 20px;
+    }
+    .sb-content,p, .baf-content, .label-form, ol li, ul li{
+        font-size: 14px;
+    }
+    .baf-image:after{
+        display: none;
+    }
+    .pay-title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .pay-border-2{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .main-rel:before{
+        display: none;
+    }
+    .team-container .container:before{
+        display: none;
+    }
+    .team-block img{
+        display: none;
+    }
+    .team-abs{
+        position: relative;
+        background: #fff;
+        padding: 15px;
+    }
+    .footer-nav ul{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .popup{
+        min-width: auto !important;
+        max-width: auto !important;
+    }
+    .pay-abs-image{
+        display: none !important;
+    }
+    .popup .pay-border-2{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .pay-container:before, .pay-container:after{
+        display: none;
+    }
+
+}
