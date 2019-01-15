@@ -1,5 +1,39 @@
 var $ = jQuery;
+
+$(window).load(function() {
+    // The slider being synced must be initialized first
+    $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 90,
+        itemMargin: 19,
+        asNavFor: '#slider'
+    });
+
+    $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel"
+    });
+});
 $(document).ready(function(){
+    $(".minus").click(function() {
+        var cur = jQuery(this).parent().parent().find(".quantity").val();
+        if (cur <= 1) {
+            return false;
+        }
+        jQuery(this).parent().parent().find(".quantity").val(parseInt(cur) - 1);
+        return false;
+    });
+    $(".plus").click(function() {
+        var cur = jQuery(this).parent().parent().find(".quantity").val();
+        jQuery(this).parent().parent().find(".quantity").val(parseInt(cur) + 1);
+        return false;
+    });
     $('.select2').select2({
         minimumResultsForSearch: Infinity
     });
