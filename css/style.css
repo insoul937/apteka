@@ -1873,3 +1873,195 @@ hr {
   border: 1px solid #d0d0d0;
   border-radius: 8px;
 }
+.min-price {
+  vertical-align: top;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #323232;
+  margin-bottom: 35px;
+}
+.min-price img {
+  margin-right: 8px;
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.zr-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #48413f;
+}
+.zr-price {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  color: #48413f;
+}
+.zr-price span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #48413f;
+}
+.zr-block {
+  padding: 12px 20px;
+  border-top: 1px solid #e5e3e3;
+}
+.zakaz-right {
+  padding-top: 20px;
+  webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
+}
+.zakaz-right h2,
+.zakaz-right .h2 {
+  padding: 0 20px;
+}
+.zr-silver {
+  background: #fafafa;
+  border-left: 4px solid #04b693;
+}
+.zr-silver .zr-text {
+  font-weight: 600;
+}
+.zr-silver .btn-green {
+  background: #04b693;
+  width: 100%;
+  color: #fff;
+  border-radius: 0;
+  padding: 15px 0;
+}
+.skidka-form {
+  padding: 7px;
+  border: 1px solid #c4c4c4;
+}
+.skidka-form .form-control {
+  width: 88%;
+  float: left;
+  border: 0;
+}
+.skidka-form .form-control:hover,
+.skidka-form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.skidka-form .btn {
+  border-radius: 0;
+}
+.zakaz-skidka {
+  margin: 0 20px 30px 50px;
+}
+.cart-table tr {
+  padding: 30px 0;
+}
+.cart-table tr th {
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #868686;
+}
+.cart-table tr td .counter {
+  border: 0;
+  width: 140px;
+  height: 45px;
+  margin-right: 0;
+}
+.cart-table tr td .quantity {
+  display: inline-block;
+  float: none;
+  width: 47px;
+  background: #e5f8f4;
+  height: 47px;
+  border: 1px solid #dcdcdc;
+  border-right: 0;
+  border-left: 0;
+}
+.cart-table tr td .minus,
+.cart-table tr td .plus {
+  line-height: 45px;
+  top: 0;
+  transform: translateY(0);
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  text-decoration: none;
+  font-size: 30px;
+  border: 1px solid #dcdcdc;
+}
+.cart-table tr td .minus:hover,
+.cart-table tr td .plus:hover,
+.cart-table tr td .minus:focus,
+.cart-table tr td .plus:focus {
+  border-bottom-color: #323232 !important;
+  color: #323232;
+}
+.cart-table tr td .minus {
+  border-right: 0;
+}
+.cart-table tr td .plus {
+  border-left: 0;
+}
+.cart-table tr td:first-child {
+  max-width: 120px;
+}
+.cart-table tr td:nth-child(3) {
+  min-width: 200px;
+}
+.csb-image {
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  padding: 10px 0;
+}
+.csb-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #323232;
+  text-decoration: none;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.csb-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #868686;
+}
+.delete {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #373737;
+  text-decoration: none;
+  border-bottom: 1px solid #373737;
+}
+.csb-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+}
+.csb-price span {
+  font-weight: 300;
+  color: #868686;
+}
+.csb-old-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #e03636;
+  text-decoration: line-through;
+}
+.csb-old-price span {
+  color: #868686;
+  font-weight: 300;
+}
+.csb-status {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #477c71;
+}
