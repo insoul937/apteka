@@ -125,7 +125,7 @@ h2,
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: #54493b;
+  color: #292a2d;
 }
 h3,
 .h3 {
@@ -133,7 +133,7 @@ h3,
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 23px;
-  color: #000015;
+  color: #292a2d;
 }
 h4,
 .h4 {
@@ -141,7 +141,7 @@ h4,
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #4a4848;
+  color: #292a2d;
 }
 h5,
 .h5 {
@@ -149,7 +149,7 @@ h5,
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  color: #4a4848;
+  color: #292a2d;
 }
 p {
   font-family: "Montserrat", sans-serif;
@@ -652,7 +652,7 @@ ul.list-unstyled li {
   border-radius: 30px;
 }
 .pr-image {
-  display: inline-block;
+  display: block;
   margin-bottom: 15px;
   position: relative;
 }
@@ -682,6 +682,9 @@ ul.list-unstyled li {
 .rate {
   margin-bottom: 15px;
 }
+.rate img {
+  width: auto !important;
+}
 .price {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -709,6 +712,9 @@ ul.list-unstyled li {
   justify-content: center;
   width: 100%;
   border-radius: 5px;
+}
+.pa-link img {
+  width: auto !important;
 }
 .partners .col {
   padding: 0;
@@ -1954,8 +1960,9 @@ hr {
 .zakaz-skidka {
   margin: 0 20px 30px 50px;
 }
-.cart-table tr {
-  padding: 30px 0;
+.cart-table table {
+  border-bottom: 1px solid #f3f3f3;
+  margin-bottom: 30px;
 }
 .cart-table tr th {
   border: 0;
@@ -1963,6 +1970,10 @@ hr {
   font-weight: 500;
   font-size: 15px;
   color: #868686;
+}
+.cart-table tr td {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .cart-table tr td .counter {
   border: 0;
@@ -2064,4 +2075,87 @@ hr {
   font-weight: 400;
   font-size: 16px;
   color: #477c71;
+}
+.btn-silver-big {
+  background: #e7e7e7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #000000;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 13px 20px;
+}
+.form-zakaz-tab .nav {
+  margin-bottom: 20px;
+}
+.form-zakaz-tab .nav .nav-link {
+  background: #e8e8e8;
+  text-align: center;
+  border-radius: 0;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+.form-zakaz-tab .nav .nav-link.active {
+  color: #fff;
+  background: #04b693;
+}
+.zakaz-form .form-control {
+  margin-bottom: 15px;
+  height: auto;
+  padding: 12px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #9f9f9f;
+}
+.ao-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #48413f;
+}
+.ao-price {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  color: #48413f;
+}
+.ao-price span {
+  font-size: 22px;
+  font-weight: 400;
+}
+.sub-price {
+  background: #e5f8f4;
+  padding: 15px 30px;
+}
+.total-price {
+  background: #04b693;
+  padding: 15px 30px;
+}
+.total-price .ao-text {
+  color: #fff;
+}
+.total-price .ao-price {
+  color: #fff;
+}
+.partners-carousel {
+  margin-bottom: 30px;
+}
+.partners-carousel .owl-stage {
+  display: flex;
+  flex-direction: row;
+}
+.partners-carousel .owl-stage .owl-item {
+  flex: 1;
+}
+.partners-carousel .owl-stage .owl-item .item {
+  height: 100%;
 }
